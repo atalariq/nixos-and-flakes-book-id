@@ -1,0 +1,8 @@
+# The English dictionary cannot check Indonesian prose. The translation audit
+# checks code examples against EN, whose spelling remains checked by typos.
+[files]
+extend-exclude = ["docs/id/", "docs/.vitepress/config/id.ts", "TRANSLATION_*.md"]
+
+[default]
+# A single translated quotation used by the paired-content audit.
+extend-ignore-re = ['"Daftar modul\.[^"]+"']

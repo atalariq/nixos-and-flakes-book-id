@@ -35,6 +35,7 @@ export default {
         locales: {
           "zh-CN": "zh-CN",
           "en-US": "en",
+          "id-ID": "id",
           "ja-JP": "ja",
         },
         // Avoid mismatches due to GitHub's fuzzy searching method when there are multiple discussions with similar titles/pathname.

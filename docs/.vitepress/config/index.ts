@@ -2,6 +2,7 @@ import { defineConfig } from "vitepress"
 import { shared } from "./shared"
 import { en } from "./en"
 import { zh } from "./zh"
+import { id } from "./id"
 
 export default defineConfig({
   ...shared,
@@ -18,6 +19,10 @@ export default defineConfig({
     zh: {
       label: "简体中文",
       ...zh,
+    },
+    id: {
+      label: "Bahasa Indonesia",
+      ...id,
     },
     pt: {
       label: "Português",

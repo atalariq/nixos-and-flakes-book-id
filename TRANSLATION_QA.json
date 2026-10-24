@@ -1,0 +1,742 @@
+{
+  "sourceCommit": "5b36e479d21b57e80d248cfca92e30b3b71b570c",
+  "pairedContent": {
+    "summary": {
+      "total": 45,
+      "translated": 45,
+      "structuralFailures": 0,
+      "missing": 0,
+      "brokenLinks": 0,
+      "changedOriginals": [],
+      "navLinks": 48,
+      "invalidNav": [],
+      "sidebarMissing": [],
+      "codeFences": 141,
+      "headings": 170,
+      "reading": {
+        "method": "Markdown paragraphs including lists and quotations; excludes tables and code fences; Intl.Segmenter id sentences; whitespace-delimited words",
+        "sentences": 1628,
+        "sentencesAtMost25Words": 1600,
+        "shortSentencePercent": 98.28009828009829,
+        "paragraphs": 943,
+        "paragraphsAtMost120Words": 943,
+        "shortParagraphPercent": 100
+      }
+    },
+    "pages": [
+      {
+        "path": "advanced-topics/index.md",
+        "sourceSha256": "894eacb4a2bcfd61f892f0644df585dc545cc99722e872a8e141dc5a1debf584",
+        "translationSha256": "7eda94303f0d44aa5ddda9f17177af4b14d20d701b4a2728ffab7f504812e99d",
+        "status": "STRUCTURE_PASS",
+        "errors": [],
+        "paragraphs": {
+          "en": 28,
+          "id": 28
+        },
+        "codeFences": 0,
+        "headingCount": 4,
+        "unchangedProse": [],
+        "broken": []
+      },
+      {
+        "path": "best-practices/accelerating-dotfiles-debugging.md",
+        "sourceSha256": "4ba9eba029bc93cf887fb1358c602ad11442623b279dd3effd988873a6375546",
+        "translationSha256": "f2367e0b608a086fa1cba90974b4949da8722f786e906b002b36f37a68af8a41",
+        "status": "STRUCTURE_PASS",
+        "errors": [],
+        "paragraphs": {
+          "en": 14,
+          "id": 14
+        },
+        "codeFences": 1,
+        "headingCount": 1,
+        "unchangedProse": [],
+        "broken": []
+      },
+      {
+        "path": "best-practices/debugging.md",
+        "sourceSha256": "c87a28b76ab92ade87267da52ba4e9969d533659a570ae614b68cf79e6b6a336",
+        "translationSha256": "5518f5ee95793cc185da603fb3a5eb8ab84585e740bf0976a76994fb17d6a22a",
+        "status": "STRUCTURE_PASS",
+        "errors": [],
+        "paragraphs": {
+          "en": 12,
+          "id": 12
+        },
+        "codeFences": 3,
+        "headingCount": 6,
+        "unchangedProse": [
+          "How to make nix build display all commands executed by make?",
+          "Collection of functions useful for debugging broken nix expressions."
+        ],
+        "broken": []
+      },
+      {
+        "path": "best-practices/intro.md",
+        "sourceSha256": "176e2596398a57ac48181d94402cc0a039c41635595f32f5b5504bed5a9028ed",
+        "translationSha256": "3b6ede54db6a8a382677cec4a5956145608b9102cca8415607463b8c029a21a4",
+        "status": "STRUCTURE_PASS",
+        "errors": [],
+        "paragraphs": {
+          "en": 2,
+          "id": 2
+        },
+        "codeFences": 0,
+        "headingCount": 2,
+        "unchangedProse": ["Tips&Tricks for NixOS Desktop - NixOS Discourse"],
+        "broken": []
+      },
+      {
+        "path": "best-practices/nix-path-and-flake-registry.md",
+        "sourceSha256": "62f5ffb8301de398e56cd29b2931f129094bd16c2259065d796e7880f81669e5",
+        "translationSha256": "1b1191208f002365cb676b5b9d08337e07585b7b4e8fb4b0651ae808d34071d1",
+        "status": "STRUCTURE_PASS",
+        "errors": [],
+        "paragraphs": {
+          "en": 11,
+          "id": 11
+        },
+        "codeFences": 1,
+        "headingCount": 5,
+        "unchangedProse": [],
+        "broken": []
+      },
+      {
+        "path": "best-practices/remote-deployment.md",
+        "sourceSha256": "0d9c7aec73690c390a0e5859a006ca17edd9f4874c16b1e52a1ab572a973e25f",
+        "translationSha256": "cc7eb9a59ccab7cd110f3ce89adcb3267dcb2051feb1f5d7a566d92625565694",
+        "status": "STRUCTURE_PASS",
+        "errors": [],
+        "paragraphs": {
+          "en": 31,
+          "id": 31
+        },
+        "codeFences": 7,
+        "headingCount": 4,
+        "unchangedProse": [],
+        "broken": []
+      },
+      {
+        "path": "best-practices/run-downloaded-binaries-on-nixos.md",
+        "sourceSha256": "a357ba815bc12ea95d20d279c28a06b49e23b95cc4de7dec84f36bb8d332e00c",
+        "translationSha256": "4ad53bae9e4bc267d1de4982ef56b909b2ae4ed5f2ef1d3eefa2ce719c7576fa",
+        "status": "STRUCTURE_PASS",
+        "errors": [],
+        "paragraphs": {
+          "en": 8,
+          "id": 8
+        },
+        "codeFences": 2,
+        "headingCount": 2,
+        "unchangedProse": [],
+        "broken": []
+      },
+      {
+        "path": "best-practices/simplify-nixos-related-commands.md",
+        "sourceSha256": "d2f9cc1a14087b2fe18dc1fea45dd4f2897d9e99195a9b1ecaf0433481484369",
+        "translationSha256": "e0927e3becfd7830fe0f2c0458c46597c71a02e7813eb00adf948127661104c9",
+        "status": "STRUCTURE_PASS",
+        "errors": [],
+        "paragraphs": {
+          "en": 6,
+          "id": 6
+        },
+        "codeFences": 1,
+        "headingCount": 1,
+        "unchangedProse": [],
+        "broken": []
+      },
+      {
+        "path": "development/cross-platform-compilation.md",
+        "sourceSha256": "3509b33f4dc07b88fa6ff83cf0a8ae5ce6ab1b9c803c43bce1c490467fd4a473",
+        "translationSha256": "a315f916c92d1974894dc90692db542680ede75d57c31ad9a83b74d8b10680a5",
+        "status": "STRUCTURE_PASS",
+        "errors": [],
+        "paragraphs": {
+          "en": 30,
+          "id": 30
+        },
+        "codeFences": 8,
+        "headingCount": 6,
+        "unchangedProse": [],
+        "broken": []
+      },
+      {
+        "path": "development/dev-environments.md",
+        "sourceSha256": "2d6df3c63665b9b454c08728be6e0150b2907507f3141a1e7e34385a2004b08f",
+        "translationSha256": "dc57dffec2daf81411a20bf2e98561ea42daf35ab632cbed55e0b2c12469e939",
+        "status": "STRUCTURE_PASS",
+        "errors": [],
+        "paragraphs": {
+          "en": 31,
+          "id": 31
+        },
+        "codeFences": 2,
+        "headingCount": 3,
+        "unchangedProse": ["the-nix-way/dev-templates"],
+        "broken": []
+      },
+      {
+        "path": "development/distributed-building.md",
+        "sourceSha256": "586eda23570ab06dd46dcf187250196cc39f3b3c1f2f5c4035790b9fa29f0187",
+        "translationSha256": "9a9b5be7906a996d4f8678cd1086815c1491084126fbced4bd16064bc873730e",
+        "status": "STRUCTURE_PASS",
+        "errors": [],
+        "paragraphs": {
+          "en": 14,
+          "id": 14
+        },
+        "codeFences": 1,
+        "headingCount": 4,
+        "unchangedProse": [
+          "Distributed builds seem to disable local builds - nix#2589",
+          "Offloading NixOS builds to a faster machine"
+        ],
+        "broken": []
+      },
+      {
+        "path": "development/intro.md",
+        "sourceSha256": "eb0b2bc726600c436abca5a0ea5f46e622a46947b96d90185932c6cdda8474ef",
+        "translationSha256": "1afbcd593371521246deb78106df8def021465637902c476698e93db36b50386",
+        "status": "STRUCTURE_PASS",
+        "errors": [],
+        "paragraphs": {
+          "en": 51,
+          "id": 51
+        },
+        "codeFences": 11,
+        "headingCount": 10,
+        "unchangedProse": [
+          "One too many shell, Clearing up with nix' shells nix shell and nix-shell - Yannik Sander"
+        ],
+        "broken": []
+      },
+      {
+        "path": "development/kernel-development.md",
+        "sourceSha256": "a44b051cae877d433be96a53fb9f2f20c00f8eb55ee96b602ad2205fce721327",
+        "translationSha256": "4bfb9f3b42f42d6dc7cfbf4ffe9091f9a68e07d62b53f9f564ab70e40236c9ba",
+        "status": "STRUCTURE_PASS",
+        "errors": [],
+        "paragraphs": {
+          "en": 6,
+          "id": 6
+        },
+        "codeFences": 1,
+        "headingCount": 2,
+        "unchangedProse": [],
+        "broken": []
+      },
+      {
+        "path": "development/packaging-101.md",
+        "sourceSha256": "97ef6ec1537358d97217b44f3593890f944203d48ad7b3d761fb7c4bb2dd6493",
+        "translationSha256": "487b248482ebff8ac1a1c66e994e94c26ad4c1b3836578692b789a8d17377196",
+        "status": "STRUCTURE_PASS",
+        "errors": [],
+        "paragraphs": {
+          "en": 14,
+          "id": 14
+        },
+        "codeFences": 0,
+        "headingCount": 2,
+        "unchangedProse": ["How to Learn Nix, Part 28: The standard environment"],
+        "broken": []
+      },
+      {
+        "path": "faq/index.md",
+        "sourceSha256": "d695e073eeab466b05ea9933f39713744218658ad44f497d34290358739e5e15",
+        "translationSha256": "4be3984a43d97eaf1f1d4aa1c9beef117ceed49f4446727fb2d6ddd46ab98372",
+        "status": "STRUCTURE_PASS",
+        "errors": [],
+        "paragraphs": {
+          "en": 26,
+          "id": 26
+        },
+        "codeFences": 3,
+        "headingCount": 5,
+        "unchangedProse": [],
+        "broken": []
+      },
+      {
+        "path": "index.md",
+        "sourceSha256": "4fadac4c94b7b74e90d015938c9bfaf13a34f64846edb3f199a1fa35746b3b33",
+        "translationSha256": "9bc64b5f994c1434f0c6783fa192d38d7de0b5a3083ad35e7cfa640a11d48708",
+        "status": "STRUCTURE_PASS",
+        "errors": [],
+        "paragraphs": {
+          "en": 0,
+          "id": 0
+        },
+        "codeFences": 0,
+        "headingCount": 0,
+        "unchangedProse": [],
+        "broken": []
+      },
+      {
+        "path": "introduction/advantages-and-disadvantages.md",
+        "sourceSha256": "df8de6d4a2bd5a950d9edcb54ff54727ac87cae0c0cbc32a1f6cf5cfdd3e7f79",
+        "translationSha256": "21126a1f5461869f0fc16c8ecc3dc3b3b4c80fb2abf5fa57353a49572a66b2b8",
+        "status": "STRUCTURE_PASS",
+        "errors": [],
+        "paragraphs": {
+          "en": 28,
+          "id": 28
+        },
+        "codeFences": 0,
+        "headingCount": 4,
+        "unchangedProse": [],
+        "broken": []
+      },
+      {
+        "path": "introduction/index.md",
+        "sourceSha256": "05916ae48af1133ae71b99c17f8f689a50347e2d0c8dfebc425422bf61538a7c",
+        "translationSha256": "9ba2099b9013fbd808a72b9a42e3bbbcee36f4e836533cc5905f5719b4a6e992",
+        "status": "STRUCTURE_PASS",
+        "errors": [],
+        "paragraphs": {
+          "en": 22,
+          "id": 22
+        },
+        "codeFences": 0,
+        "headingCount": 2,
+        "unchangedProse": [],
+        "broken": []
+      },
+      {
+        "path": "introduction/installation.md",
+        "sourceSha256": "ea5e89dfd79497de30799f95e93680bd964c0d09ce9804cbd320f7dd6c01e472",
+        "translationSha256": "7c9f7d9196d65e743795103603244984eddd3044da503233a4ff5d3d63d84369",
+        "status": "STRUCTURE_PASS",
+        "errors": [],
+        "paragraphs": {
+          "en": 7,
+          "id": 7
+        },
+        "codeFences": 0,
+        "headingCount": 1,
+        "unchangedProse": [],
+        "broken": []
+      },
+      {
+        "path": "nix-store/add-binary-cache-servers.md",
+        "sourceSha256": "a862b4823c5ad69d7dd4f22c0faa9f7cd23ce5491c7c4b372771294d308dc3d4",
+        "translationSha256": "aac67d6030ed3099c7ac673327d6559ef32055bc25671fac8747714ee5f0ef34",
+        "status": "STRUCTURE_PASS",
+        "errors": [],
+        "paragraphs": {
+          "en": 41,
+          "id": 41
+        },
+        "codeFences": 5,
+        "headingCount": 5,
+        "unchangedProse": [],
+        "broken": []
+      },
+      {
+        "path": "nix-store/host-your-own-binary-cache-server.md",
+        "sourceSha256": "92bad4e11e60d575f33472a60cfd4902ba60133047b5ce0b6a02a0aa39568733",
+        "translationSha256": "c176ef9ff2ca5baedb9cc4a4ca2f4d17c9df85d24a606b624d4c29c30fca43c4",
+        "status": "STRUCTURE_PASS",
+        "errors": [],
+        "paragraphs": {
+          "en": 30,
+          "id": 30
+        },
+        "codeFences": 17,
+        "headingCount": 11,
+        "unchangedProse": [
+          "Binary cache in the NixOS wiki",
+          "Serving a Nix store via S3 in the NixOS manual",
+          "Serving a Nix store via HTTP in the NixOS manual"
+        ],
+        "broken": []
+      },
+      {
+        "path": "nix-store/intro.md",
+        "sourceSha256": "1d134e1f0df9c243429d1114ece33dae8cb8db8d6fe09bead8de4f6373679219",
+        "translationSha256": "8cf024eb482a05ec1d2063749eca311876c089adc1d6d7d03d0e7aba81999057",
+        "status": "STRUCTURE_PASS",
+        "errors": [],
+        "paragraphs": {
+          "en": 24,
+          "id": 24
+        },
+        "codeFences": 3,
+        "headingCount": 8,
+        "unchangedProse": [],
+        "broken": []
+      },
+      {
+        "path": "nixos-with-flakes/downgrade-or-upgrade-packages.md",
+        "sourceSha256": "94937faf7239c8060d19d032d1314c67385f30aa956fb241f42a4e714125540e",
+        "translationSha256": "de3c92846906aa0e56cb47f09839df1e1155c11364dd573aac323ac14bfe9788",
+        "status": "STRUCTURE_PASS",
+        "errors": [],
+        "paragraphs": {
+          "en": 8,
+          "id": 8
+        },
+        "codeFences": 3,
+        "headingCount": 3,
+        "unchangedProse": [],
+        "broken": []
+      },
+      {
+        "path": "nixos-with-flakes/get-started-with-nixos.md",
+        "sourceSha256": "8d5e93d09bedff50164614141944394d53f28993668154708a1f84bee0f5d9e4",
+        "translationSha256": "0bdbd008c33c5232b656f752e559214850d469a9fedf8c813a2252bfb0dfb78a",
+        "status": "STRUCTURE_PASS",
+        "errors": [],
+        "paragraphs": {
+          "en": 16,
+          "id": 16
+        },
+        "codeFences": 1,
+        "headingCount": 3,
+        "unchangedProse": ["Overview of the NixOS Linux distribution"],
+        "broken": []
+      },
+      {
+        "path": "nixos-with-flakes/introduction-to-flakes.md",
+        "sourceSha256": "04cc34fa9b78747f1c901e5644d31aa5c59539bae472c4ad303cbd7535f7d358",
+        "translationSha256": "6972a93c6193d32a1449de2c170b1739e6c94718cd20b286537a9bbe5ae843fb",
+        "status": "STRUCTURE_PASS",
+        "errors": [],
+        "paragraphs": {
+          "en": 38,
+          "id": 38
+        },
+        "codeFences": 0,
+        "headingCount": 4,
+        "unchangedProse": ["Flakes are such an obviously good thing"],
+        "broken": []
+      },
+      {
+        "path": "nixos-with-flakes/modularize-the-configuration.md",
+        "sourceSha256": "97c7683afd42840d767d8301a755e38a51226eda57252d8d0f635402a8fafe91",
+        "translationSha256": "18ee50a1408c75149414dacdb7ef25fcd900c6c58e8e22c1472e942230e44d55",
+        "status": "STRUCTURE_PASS",
+        "errors": [],
+        "paragraphs": {
+          "en": 41,
+          "id": 41
+        },
+        "codeFences": 10,
+        "headingCount": 4,
+        "unchangedProse": [],
+        "broken": []
+      },
+      {
+        "path": "nixos-with-flakes/nixos-flake-and-module-system.md",
+        "sourceSha256": "2329e59f98afe46264485996026dc32a4d7ed3e255b44ea2d7a8d321ea8671bc",
+        "translationSha256": "81aa9db5144801a5d973734e2b75aa7ed160747c5fc1e4a664660d2d02fdeedd",
+        "status": "STRUCTURE_PASS",
+        "errors": [],
+        "paragraphs": {
+          "en": 59,
+          "id": 59
+        },
+        "codeFences": 7,
+        "headingCount": 6,
+        "unchangedProse": [],
+        "broken": []
+      },
+      {
+        "path": "nixos-with-flakes/nixos-flake-configuration-explained.md",
+        "sourceSha256": "1dadce6799e553cd20f2087801dc272f3cbfce96b851aa2c094b76101470fd95",
+        "translationSha256": "20d147bc10abb6f57f994d19185e9b223e164309ac0ce4b59ecdaeb0ae772c8c",
+        "status": "STRUCTURE_PASS",
+        "errors": [],
+        "paragraphs": {
+          "en": 29,
+          "id": 29
+        },
+        "codeFences": 5,
+        "headingCount": 5,
+        "unchangedProse": [],
+        "broken": []
+      },
+      {
+        "path": "nixos-with-flakes/nixos-with-flakes-enabled.md",
+        "sourceSha256": "3b07c907a2a2b4a8adacc8fc37e2abf1cfef557fa32183852e88f2c31ce33d90",
+        "translationSha256": "f310feac2514a1c4c685f882983103dbcd59cf0c1c1f935f15329ce47345bda4",
+        "status": "STRUCTURE_PASS",
+        "errors": [],
+        "paragraphs": {
+          "en": 22,
+          "id": 22
+        },
+        "codeFences": 4,
+        "headingCount": 4,
+        "unchangedProse": [],
+        "broken": []
+      },
+      {
+        "path": "nixos-with-flakes/other-useful-tips.md",
+        "sourceSha256": "b35f8bebd1d2c6a89b2d7571c8c40b5f5a87cfc62a868cb4f26af6f95fbcce33",
+        "translationSha256": "244e95a5ec77ae50d549ffe0da177ba167c9cb0f0b5338129df1a3fef62ba03e",
+        "status": "STRUCTURE_PASS",
+        "errors": [],
+        "paragraphs": {
+          "en": 18,
+          "id": 18
+        },
+        "codeFences": 7,
+        "headingCount": 6,
+        "unchangedProse": [],
+        "broken": []
+      },
+      {
+        "path": "nixos-with-flakes/start-using-home-manager.md",
+        "sourceSha256": "8837591ab2428bc49ab2aacb46290c72c5fc4124dcb8847af7250e531e0cb31b",
+        "translationSha256": "be3432861a1ad709a251c10c595d27a6c18c973d9227d0de112a9eed8ce51ecd",
+        "status": "STRUCTURE_PASS",
+        "errors": [],
+        "paragraphs": {
+          "en": 26,
+          "id": 26
+        },
+        "codeFences": 6,
+        "headingCount": 3,
+        "unchangedProse": [],
+        "broken": []
+      },
+      {
+        "path": "nixos-with-flakes/update-the-system.md",
+        "sourceSha256": "99862b49bed261d8462d480b3f3d2de2d49e0b78a032cfd9f6a11d29e1b2fcd3",
+        "translationSha256": "614fab6d2fa84a4edad0d0f90878ba037839deb29731ba3b21fbb63fe0a992ef",
+        "status": "STRUCTURE_PASS",
+        "errors": [],
+        "paragraphs": {
+          "en": 3,
+          "id": 3
+        },
+        "codeFences": 1,
+        "headingCount": 1,
+        "unchangedProse": [],
+        "broken": []
+      },
+      {
+        "path": "nixpkgs/callpackage.md",
+        "sourceSha256": "747c16bfe805c18781f567c8c86dc56d2530a85094b99b7869cb284f2fb0edaf",
+        "translationSha256": "1e06314066487489723ad242aeb696eaf66543b28f99761a56e2a73433478cb8",
+        "status": "STRUCTURE_PASS",
+        "errors": [],
+        "paragraphs": {
+          "en": 31,
+          "id": 31
+        },
+        "codeFences": 6,
+        "headingCount": 4,
+        "unchangedProse": ["callPackage, a tool for the lazy - The Summer of Nix"],
+        "broken": []
+      },
+      {
+        "path": "nixpkgs/intro.md",
+        "sourceSha256": "1d8f0f906e405f697bf8b125d2fe308888d6fed3954237000a14471424755b0d",
+        "translationSha256": "cf98fc8335dc146166bc17f2558cfd32d82b13e50f4a407596dc38374b97a843",
+        "status": "STRUCTURE_PASS",
+        "errors": [],
+        "paragraphs": {
+          "en": 8,
+          "id": 8
+        },
+        "codeFences": 0,
+        "headingCount": 1,
+        "unchangedProse": [],
+        "broken": []
+      },
+      {
+        "path": "nixpkgs/multiple-nixpkgs.md",
+        "sourceSha256": "aedde7a1ed723ea0a447bd674fef82624adb6896adf6d2c1e5e1786ccd95d1d5",
+        "translationSha256": "b94c76d7c6e125ecbbc3fd729d2ce325c0e992da65e2a6373f414eec9ab026c9",
+        "status": "STRUCTURE_PASS",
+        "errors": [],
+        "paragraphs": {
+          "en": 14,
+          "id": 14
+        },
+        "codeFences": 2,
+        "headingCount": 3,
+        "unchangedProse": [],
+        "broken": []
+      },
+      {
+        "path": "nixpkgs/overlays.md",
+        "sourceSha256": "253a6b7ce4ec605a0338e5be598f35e1c839b052370521a3aebe7436d85e5b1c",
+        "translationSha256": "31b251beb1e2de56ebaef5537db4732a7a47051a3162ee4ee181399326e3778b",
+        "status": "STRUCTURE_PASS",
+        "errors": [],
+        "paragraphs": {
+          "en": 16,
+          "id": 16
+        },
+        "codeFences": 2,
+        "headingCount": 3,
+        "unchangedProse": [],
+        "broken": []
+      },
+      {
+        "path": "nixpkgs/overriding.md",
+        "sourceSha256": "24f1030098746d956e431d638f7b9449530409db368caea0f63db3a8126445f7",
+        "translationSha256": "dae62175fa4e5b2500432e0fb30476e93c28c65da4f9d99070b3717a3afdd92b",
+        "status": "STRUCTURE_PASS",
+        "errors": [],
+        "paragraphs": {
+          "en": 15,
+          "id": 15
+        },
+        "codeFences": 5,
+        "headingCount": 2,
+        "unchangedProse": [],
+        "broken": []
+      },
+      {
+        "path": "other-usage-of-flakes/inputs.md",
+        "sourceSha256": "a7fa5731fe4553745f9f9996da0090963585d1b25c6f1beb0d181ec1489ae937",
+        "translationSha256": "f7400d53cb69a5af700c7300cb9877a4fde473ce3ca767de2cd76c85484d2f75",
+        "status": "STRUCTURE_PASS",
+        "errors": [],
+        "paragraphs": {
+          "en": 3,
+          "id": 3
+        },
+        "codeFences": 1,
+        "headingCount": 2,
+        "unchangedProse": [],
+        "broken": []
+      },
+      {
+        "path": "other-usage-of-flakes/intro.md",
+        "sourceSha256": "46c431c5fc50c84d3a86f52764e01b1e08c24d28bca41d01901825599938f4fa",
+        "translationSha256": "622233395df28eb6dd17cd604acf35309b943d75bacd61c5f4715de47f46a4f6",
+        "status": "STRUCTURE_PASS",
+        "errors": [],
+        "paragraphs": {
+          "en": 1,
+          "id": 1
+        },
+        "codeFences": 0,
+        "headingCount": 1,
+        "unchangedProse": [],
+        "broken": []
+      },
+      {
+        "path": "other-usage-of-flakes/module-system.md",
+        "sourceSha256": "d7cdc1e94dc7ce7247a4c5bd07fae9ff6f7c1bfa323128ba23df6e3c00b6a81f",
+        "translationSha256": "5b12ace7613314f920ef92e173bfe949b47f30ad25dbe873588e69afcb220e57",
+        "status": "STRUCTURE_PASS",
+        "errors": [],
+        "paragraphs": {
+          "en": 81,
+          "id": 81
+        },
+        "codeFences": 9,
+        "headingCount": 11,
+        "unchangedProse": [
+          "Best resources for learning about the NixOS module system? - Discourse"
+        ],
+        "broken": []
+      },
+      {
+        "path": "other-usage-of-flakes/outputs.md",
+        "sourceSha256": "1dd11af9418172f430db1257899f1cec1a4fe62c5cb153f74d0ece56a96b044c",
+        "translationSha256": "c9ddd1dd94bed1a4d68fc85933b1a1fbb34b12c73926ec087d08f6134872c09c",
+        "status": "STRUCTURE_PASS",
+        "errors": [],
+        "paragraphs": {
+          "en": 10,
+          "id": 10
+        },
+        "codeFences": 1,
+        "headingCount": 2,
+        "unchangedProse": [],
+        "broken": []
+      },
+      {
+        "path": "other-usage-of-flakes/testing.md",
+        "sourceSha256": "1fa5b459960350016b569d5b7e97204d615b1d5be1ef23efef2537cb5c54417d",
+        "translationSha256": "50abb074a38469084e2b2126c100ae8b9954fc3876d0ec8a0e9009f4ffadec6c",
+        "status": "STRUCTURE_PASS",
+        "errors": [],
+        "paragraphs": {
+          "en": 8,
+          "id": 8
+        },
+        "codeFences": 0,
+        "headingCount": 2,
+        "unchangedProse": [
+          "Integration testing with NixOS virtual machines - nix.dev",
+          "Unveiling the Power of the NixOS Integration Test Driver (Part 1)",
+          "Unveiling the Power of the NixOS Integration Test Driver (Part 2)"
+        ],
+        "broken": []
+      },
+      {
+        "path": "other-usage-of-flakes/the-new-cli.md",
+        "sourceSha256": "b924fba080c75f8012120e4a190b8584ca627192aa742ccea5ec1941a18ae8fb",
+        "translationSha256": "1062ead956ff30944e5141d0d890dfbc52f09cf140b9640ea22cf0eb10ce4873",
+        "status": "STRUCTURE_PASS",
+        "errors": [],
+        "paragraphs": {
+          "en": 12,
+          "id": 12
+        },
+        "codeFences": 5,
+        "headingCount": 4,
+        "unchangedProse": [],
+        "broken": []
+      },
+      {
+        "path": "preface.md",
+        "sourceSha256": "9723e0a048f70f52a8c371ccdeb90b2dc6e00e2fca7cacac96ac9abf5d8ebb22",
+        "translationSha256": "9b498f9cd2f78e6e144455cd3b6b8759485f5f0c78d78b251b5f7f058f81a6c9",
+        "status": "STRUCTURE_PASS",
+        "errors": [],
+        "paragraphs": {
+          "en": 40,
+          "id": 40
+        },
+        "codeFences": 0,
+        "headingCount": 7,
+        "unchangedProse": [
+          "[2023-05-11] NixOS & Nix Flakes - A Guide for Beginners - Reddit",
+          "[2023-06-22] Updates: NixOS & Nix Flakes - A Guide for Beginners - Reddit",
+          "[2023-06-24] An unofficial NixOS & Flakes book for beginners - Discourse",
+          "[2023-07-06] This isn't an issue but it has to be said: - Discussions",
+          "NixOS & Nix Flakes - A Guide for Beginners - This Cute World",
+          "NixOS & Nix Flakes - A Guide for Beginners - Reddit",
+          "Updates: NixOS & Nix Flakes - A Guide for Beginners - Reddit"
+        ],
+        "broken": []
+      },
+      {
+        "path": "the-nix-language/index.md",
+        "sourceSha256": "e198dc18d7c81ab081206fe6f31e3dd0851c96e6e9ebdbbf993b20ace8236f9f",
+        "translationSha256": "28db85cd9463876696119b5b97017944e2febe72f365d9ffd200aaf51a3cfe8d",
+        "status": "STRUCTURE_PASS",
+        "errors": [],
+        "paragraphs": {
+          "en": 9,
+          "id": 9
+        },
+        "codeFences": 0,
+        "headingCount": 1,
+        "unchangedProse": [],
+        "broken": []
+      }
+    ]
+  },
+  "renderedSite": {
+    "pages": 136,
+    "idPages": 45,
+    "links": 10142,
+    "failures": []
+  },
+  "previewHTTP": {
+    "/id/": 200,
+    "/id/nixos-with-flakes/start-using-home-manager": 200,
+    "/": 200,
+    "/zh/": 200
+  }
+}

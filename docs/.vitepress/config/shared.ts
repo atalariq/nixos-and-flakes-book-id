@@ -58,6 +58,21 @@ export const shared = defineConfig({
       hostname: "https://nixos-and-flakes.thiscute.world/",
       outDir: outDir,
       generateRobotsTxt: true,
+      // The translation has no declared production hostname yet. Do not publish
+      // its routes under the upstream hostname in the sitemap.
+      exclude: fs.existsSync(path.join(DOCS_DIR, "id"))
+        ? fs
+            .readdirSync(path.join(DOCS_DIR, "id"), { recursive: true })
+            .filter(
+              (file): file is string => typeof file === "string" && file.endsWith(".md")
+            )
+            .map((file) =>
+              `/id/${file
+                .replace(/\.md$/, "")
+                .replace(/\/index$/, "")
+                .replace(/^index$/, "")}`.replace(/\/$/, "")
+            )
+        : [],
     })
   },
 
@@ -198,10 +213,12 @@ const SITE_TITLE = "NixOS & Flakes Book"
 const LOCALE_DESCRIPTIONS: Record<string, string> = {
   en: "An unofficial and opinionated book for beginners",
   zh: "一份非官方的新手指南",
+  id: "Terjemahan komunitas: buku tidak resmi untuk pemula dengan sudut pandang penulis",
 }
 
-/** `en` is the root locale; only `zh` is prefixed. */
-function localeOf(pageData: PageData): "en" | "zh" {
+/** `en` is the root locale; `zh` and `id` are prefixed. */
+function localeOf(pageData: PageData): "en" | "zh" | "id" {
+  if (pageData.relativePath.startsWith("id/")) return "id"
   return pageData.relativePath.startsWith("zh/") ? "zh" : "en"
 }
 
@@ -216,18 +233,25 @@ function pageUrl(pageData: PageData): string {
     .replace(/\.md$/, "")
     .replace(/\/index$/, "/")
     .replace(/^index$/, "")
+  // A community translation may be previewed on a fork with no known hostname.
+  // Relative URLs resolve on that host, without claiming the upstream's /id/ pages.
+  if (localeOf(pageData) === "id") return `/${pathSegment}`
   return `${SITE_ORIGIN}/${pathSegment}`
 }
 
 function getJSONLD(pageData: PageData, title: string): string {
   const url = pageUrl(pageData)
   const locale = localeOf(pageData)
-  if (pageData.relativePath === "index.md" || pageData.relativePath === "zh/index.md") {
+  if (
+    pageData.relativePath === "index.md" ||
+    pageData.relativePath === "zh/index.md" ||
+    pageData.relativePath === "id/index.md"
+  ) {
     return JSON.stringify({
       "@context": "http://schema.org",
       "@type": "WebSite",
       url,
-      inLanguage: locale === "zh" ? "zh-CN" : "en",
+      inLanguage: locale === "id" ? "id-ID" : locale === "zh" ? "zh-CN" : "en",
       description: LOCALE_DESCRIPTIONS[locale],
       name: title,
     })
@@ -236,7 +260,7 @@ function getJSONLD(pageData: PageData, title: string): string {
     "@context": "http://schema.org",
     "@type": "TechArticle",
     headline: `${title} | ${SITE_TITLE}`,
-    inLanguage: locale === "zh" ? "zh-CN" : "en",
+    inLanguage: locale === "id" ? "id-ID" : locale === "zh" ? "zh-CN" : "en",
     mainEntityOfPage: { "@type": "WebPage", "@id": url },
     keywords: "NixOS, Nix, Flakes, Linux, Tutorial",
     url,

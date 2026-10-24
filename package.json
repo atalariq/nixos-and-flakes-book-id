@@ -9,6 +9,8 @@
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs",
+    "check:translation": "tsx scripts/translation-audit.ts",
+    "check:translation:rendered": "tsx scripts/translation-render-audit.ts",
     "check": "prettier --check . && typos .",
     "export-pdf": "tsx scripts/pdf-export.ts",
     "export-epub": "tsx scripts/epub-export.ts",
